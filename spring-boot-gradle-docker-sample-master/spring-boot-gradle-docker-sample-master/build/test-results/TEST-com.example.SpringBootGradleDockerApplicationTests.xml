@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.SpringBootGradleDockerApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-02-19T02:54:41" hostname="DESKTOP-5U07N4L" time="0.013">
+  <properties/>
+  <testcase name="contextLoads" classname="com.example.SpringBootGradleDockerApplicationTests" time="0.013"/>
+  <system-out><![CDATA[2019-02-18 20:54:39.812  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.SpringBootGradleDockerApplicationTests], using SpringBootContextLoader
+2019-02-18 20:54:39.820  INFO   --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.example.SpringBootGradleDockerApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-02-18 20:54:39.821  INFO   --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.example.SpringBootGradleDockerApplicationTests]: SpringBootGradleDockerApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-02-18 20:54:39.967  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.example.SpringBootGradleDockerApplication for test class com.example.SpringBootGradleDockerApplicationTests
+2019-02-18 20:54:39.973  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-02-18 20:54:39.978  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [javax/servlet/ServletContext]
+2019-02-18 20:54:39.979  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.transaction.TransactionalTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttributeSource]
+2019-02-18 20:54:39.980  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Could not instantiate TestExecutionListener [org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]. Specify custom listener classes or make the default listener classes (and their required dependencies) available. Offending class: [org/springframework/transaction/interceptor/TransactionAttribute]
+2019-02-18 20:54:39.980  INFO   --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@33f3fc99, org.springframework.boot.test.autoconfigure.AutoConfigureReportTestExecutionListener@593458a6, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@3a9d1bc5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@647deb3e, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@48c6c41c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@334c44ca, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@61dd2255, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6a72114b]
+###################################
+
+   Spring Boot in Docker 
+
+   v. 0.0.1-SNAPSHOT          
+                        
+###################################
+
+2019-02-18 20:54:40.445  INFO 13956 --- [    Test worker] e.SpringBootGradleDockerApplicationTests : Starting SpringBootGradleDockerApplicationTests on DESKTOP-5U07N4L with PID 13956 (started by venka in D:\Repositories\spring-boot-gradle-docker-sample-master\spring-boot-gradle-docker-sample-master)
+2019-02-18 20:54:40.447  INFO 13956 --- [    Test worker] e.SpringBootGradleDockerApplicationTests : No active profile set, falling back to default profiles: default
+2019-02-18 20:54:40.480  INFO 13956 --- [    Test worker] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5ee38807: startup date [Mon Feb 18 20:54:40 CST 2019]; root of context hierarchy
+2019-02-18 20:54:41.266  INFO 13956 --- [    Test worker] c.e.SpringBootGradleDockerApplication    : Hello World!!
+2019-02-18 20:54:41.268  INFO 13956 --- [    Test worker] e.SpringBootGradleDockerApplicationTests : Started SpringBootGradleDockerApplicationTests in 1.086 seconds (JVM running for 2.43)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
