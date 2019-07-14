@@ -1,0 +1,12 @@
+com\spring\thymleaf\controller\StudentController.class
+com\spring\thymleaf\model\User.class
+com\spring\thymleaf\repository\StudentRepository.class
+com\spring\thymleaf\config\SecurityConfig.class
+com\spring\thymleaf\config\SwaggerConfig.class
+com\spring\thymleaf\control\TopicController.class
+com\spring\thymleaf\service\TopicService.class
+com\spring\thymleaf\service\StudentService.class
+com\spring\thymleaf\controller\ThymleafController.class
+com\spring\thymleaf\model\Student.class
+com\spring\thymleaf\model\Topic.class
+com\spring\thymleaf\ThymleafApp.class
