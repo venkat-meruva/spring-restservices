@@ -1,0 +1,5 @@
+com\spring\rest\topics\controller\TopicController.class
+com\spring\rest\topics\service\TopicService.class
+com\spring\rest\hello\HelloController.class
+com\spring\rest\CourseApiApp.class
+com\spring\rest\topics\model\Topic.class
