@@ -15,7 +15,7 @@ public class DatabaseController {
 	@RequestMapping("/insert")
 	public String index() {
 		
-		jdbcTemplate.execute("insert into contact(contact_id,name,email,address,telephone)values('123','Venkat','venkatmeruvaa@gmail.com','Charlotte','9105146042')");
+		jdbcTemplate.execute("insert into contact(contact_id,name,email,address,telephone)values('123','Venkat','venkat@gmail.com','Charlotte','123456789')");
 		return "Data was successfully inserted";
 	}
 }
